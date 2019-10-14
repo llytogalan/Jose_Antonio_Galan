@@ -4,4 +4,4 @@ create table usuario (
     Apellidos     varchar(30) not null,
     Edad          int not null,
     Direccion     varchar(30) not null  
-)
+);
