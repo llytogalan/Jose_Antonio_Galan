@@ -12,7 +12,7 @@ create table cursos (
     Horas_duracion  int not null
 );
 create table aula (
-    Nombre  int Primary key not null,
+    Nombre  varchar(30) Primary key not null,
     Capacidad        int not null, 
     Planta    int not null,
     Descripción  varchar(50) not null
