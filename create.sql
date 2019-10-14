@@ -11,3 +11,9 @@ create table cursos (
     Descripcion    varchar(30) not null,
     Horas_duracion  int not null
 );
+create table aula (
+    Nombre  int Primary key not null,
+    Capacidad        int not null, 
+    Planta    int not null,
+    Descripción  varchar(50) not null
+);
