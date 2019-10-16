@@ -17,3 +17,8 @@ create table aula (
     Planta    int not null,
     Descripción  varchar(50) not null
 );
+
+create table edificio (
+    Nombre  varchar(30) Primary key not null,
+    Descripción  varchar(50) not null
+);
